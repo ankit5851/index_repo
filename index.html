@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,54 @@
         body {
             background-color: yellow;
         }
+
         h1 {
             text-align: center;
         }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0px;
+            overflow: hidden;
+            background-color: lightgray;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: blue;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: gray;
+            color: white;
+        }
+
+        li a:hover {
+            background-color: orange;
+            color: white;
+        }
     </style>
 </head>
+
 <body>
     <h1>LVC..!!</h1>
     <br>
     <h1>Welcome to Live Virtual Class!!</h1>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Registration</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
 </body>
+
 </html>
